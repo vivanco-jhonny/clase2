@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <center>
+        <header>
+            <h1>Universidad Tecnologica del Peru</h1>
+            <p>Biemvenido al mundo de la programacion</p>
+            <hr />
+          </header>
+          <nav>
+            <ul>
+              <a href="index.html">Home</a>
+              <a href="Tablas.html">Tables</a>
+              <a href="Listas.html">Listas</a>
+              <a href="Imagenes.html">Imagenes</a>
+              <a href="Sonidos.html">Sonidos y Videos</a>
+              <a href="Contactos.html">contactos</a>
+            </ul>
+          </nav>
+    </center>
+    <form class="mb-3" style="position: absolute; left: 50%; top: 50%; width: 80%; height: auto; transform: translate(-50%, -50%); background: rgba(255, 255, 255); padding: 20px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.712); border-radius: 20px;">
+        <h1>REGISTRO DE CONTACTOS</h1>
+        <div>
+            <label for="nombre" class="form-label">Ingrese nombre</label>
+            <input class="form-control" id="nombre" placeholder="Nombre" type="text" name="nombre">
+        </div>
+        <div>
+            <label for="email" class="form-label">Ingrese correo</label>
+            <input class="form-control" id="email" placeholder="Email" type="email" name="email">
+        </div>
+        <div>
+            <label for="number" class="form-label">Ingrese numero celular</label>
+            <input class="form-control" id="number" placeholder="Numero celular" type="number" name="number">
+        </div>
+        <div>
+            <label for="codigo" class="form-label">Ingrese codigo de verificacion</label>
+            <input class="form-control" id="codigo" placeholder="Codigo verificado" type="" name="codigo">
+        </div>
+        <div>
+            <label for="number" class="form-label">Ingrese Mensaje</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Grabar Contacto" class="btn btn-primary" style="width: 100%; margin-top: 20px;">
+    </form>
+</body>
+</html>
